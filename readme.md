@@ -1,4 +1,4 @@
-# Latest
+# Bits
 
 Simple landing page to centralize chronologically different bits and bolts of
 myself scattered around the web.
