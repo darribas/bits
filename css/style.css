@@ -78,7 +78,7 @@ section figcaption {
 
 section#visualizations a {
   text-decoration: none;
-  color: #000 !important;
+  color: #39c !important;
 }
 
 section#visualizations ul {
@@ -88,8 +88,8 @@ section#visualizations ul {
 section#visualizations > ul li {
   display: inline-block;
   vertical-align: top;
-  width: 31%;
   margin: 30px 2% 0 0;
+  width: 22%;
 }
 
 nav {
@@ -110,7 +110,26 @@ header.address img, footer img {
   section#visualizations > ul li {
     display: inline-block;
     vertical-align: top;
+    width: 28%;
+    margin: 30px 2% 0 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  section#visualizations > ul li {
+    display: inline-block;
+    vertical-align: top;
     width: 48%;
     margin: 30px 2% 0 0;
   }
 }
+
+@media screen and (max-width: 700px) {
+  section#visualizations > ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 98%;
+    margin: 30px 2% 0 0;
+  }
+}
+
