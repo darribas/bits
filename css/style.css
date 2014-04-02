@@ -12,7 +12,7 @@ html, body {
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#474747;
+  color:#777;
   font-weight:300;
   text-align: center;
 }
@@ -29,7 +29,6 @@ h1, h2, h3 {
 h1 {
   margin: 25px 0 0 0;
   font-size:28px;
-  text-indent: 27px;
   line-height: 30px;
 }
 
@@ -49,10 +48,12 @@ p {
 
 a, a:visited {
   color: #00a;
+  color: #39c;
+  text-decoration: none;
 }
 
 section, article, header#intro {
-  margin: 50px;
+  margin: 0px;
 }
 
 section > header {
@@ -85,6 +86,7 @@ section figcaption {
 
 section#visualizations a {
   text-decoration: none;
+  font-weight:300;
   color: #39c !important;
 }
 
@@ -106,6 +108,7 @@ nav {
 header.address, footer {
   margin: 10px 0;
   font-size: 0.7em;
+  color: #777;
 }
 
 header.address img, footer img {
@@ -122,7 +125,7 @@ header.address img, footer img {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   section#visualizations > ul li {
     display: inline-block;
     vertical-align: top;
@@ -131,7 +134,7 @@ header.address img, footer img {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   section#visualizations > ul li {
     display: inline-block;
     vertical-align: top;
