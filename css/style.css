@@ -143,3 +143,12 @@ header.address img, footer img {
   }
 }
 
+@media handheld {
+  section#visualizations > ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 98%;
+    margin: 30px 2% 0 0;
+  }
+}
+
